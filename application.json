@@ -1,8 +1,16 @@
 {
   "pages": [
     {
-      "id": "Test Page",
+      "id": "Renters - Browsing Apartments",
       "isDefault": true
+    },
+    {
+      "id": "Renters - Apartment Details",
+      "isDefault": false
+    },
+    {
+      "id": "Landlord - Browsing Apartments",
+      "isDefault": false
     }
   ],
   "viewMode": false,
