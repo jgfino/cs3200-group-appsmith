@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Renters - Apartment Details",
-    "slug": "renters-apartment-details",
+    "name": "Renters - Apartment Details Copy",
+    "slug": "renters-apartment-details-copy",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 940,
+          "bottomRow": 790,
           "containerStyle": "none",
           "snapRows": 53,
           "parentRowSpace": 1,
@@ -350,453 +350,22 @@
               "autoPlay": false
             },
             {
-              "widgetName": "rent_label",
-              "displayName": "Text",
-              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-              "searchTags": [
-                "typography",
-                "paragraph",
-                "label"
-              ],
-              "topRow": 64,
-              "bottomRow": 68,
-              "parentRowSpace": 10,
-              "type": "TEXT_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "overflow": "NONE",
-              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "parentColumnSpace": 12.296875,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 3,
-              "dynamicBindingPathList": [
-                {
-                  "key": "truncateButtonColor"
-                },
-                {
-                  "key": "fontFamily"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "shouldTruncate": false,
-              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Monthly Rent",
-              "key": "l5jl51o74b",
-              "isDeprecated": false,
-              "rightColumn": 12,
-              "textAlign": "LEFT",
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "ntyki0hg9e",
-              "minWidth": 450,
-              "isVisible": true,
-              "fontStyle": "BOLD",
-              "textColor": "#231F20",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "fontSize": "1rem",
-              "minDynamicHeight": 4
-            },
-            {
-              "widgetName": "rent_amt",
-              "displayName": "Text",
-              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-              "searchTags": [
-                "typography",
-                "paragraph",
-                "label"
-              ],
-              "topRow": 69,
-              "bottomRow": 73,
-              "parentRowSpace": 10,
-              "type": "TEXT_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "overflow": "NONE",
-              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "parentColumnSpace": 12.296875,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 3,
-              "dynamicBindingPathList": [
-                {
-                  "key": "truncateButtonColor"
-                },
-                {
-                  "key": "fontFamily"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "shouldTruncate": false,
-              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "label",
-              "key": "l5jl51o74b",
-              "isDeprecated": false,
-              "rightColumn": 12,
-              "textAlign": "LEFT",
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "opn025hi8y",
-              "minWidth": 450,
-              "isVisible": true,
-              "fontStyle": "BOLD",
-              "textColor": "#231F20",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "fontSize": "1rem",
-              "minDynamicHeight": 4
-            },
-            {
-              "widgetName": "bedroom_label",
-              "displayName": "Text",
-              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-              "searchTags": [
-                "typography",
-                "paragraph",
-                "label"
-              ],
-              "topRow": 64,
-              "bottomRow": 68,
-              "parentRowSpace": 10,
-              "type": "TEXT_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "overflow": "NONE",
-              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "parentColumnSpace": 12.296875,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 20,
-              "dynamicBindingPathList": [
-                {
-                  "key": "truncateButtonColor"
-                },
-                {
-                  "key": "fontFamily"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "shouldTruncate": false,
-              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Bedrooms",
-              "key": "l5jl51o74b",
-              "isDeprecated": false,
-              "rightColumn": 29,
-              "textAlign": "LEFT",
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "x37yxn8x83",
-              "minWidth": 450,
-              "isVisible": true,
-              "fontStyle": "BOLD",
-              "textColor": "#231F20",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "fontSize": "1rem",
-              "minDynamicHeight": 4
-            },
-            {
-              "widgetName": "bathrooms_label",
-              "displayName": "Text",
-              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-              "searchTags": [
-                "typography",
-                "paragraph",
-                "label"
-              ],
-              "topRow": 64,
-              "bottomRow": 68,
-              "parentRowSpace": 10,
-              "type": "TEXT_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "overflow": "NONE",
-              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "parentColumnSpace": 12.296875,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 36,
-              "dynamicBindingPathList": [
-                {
-                  "key": "truncateButtonColor"
-                },
-                {
-                  "key": "fontFamily"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "shouldTruncate": false,
-              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Bathrooms",
-              "key": "l5jl51o74b",
-              "isDeprecated": false,
-              "rightColumn": 45,
-              "textAlign": "LEFT",
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "6vaffuuxki",
-              "minWidth": 450,
-              "isVisible": true,
-              "fontStyle": "BOLD",
-              "textColor": "#231F20",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "fontSize": "1rem",
-              "minDynamicHeight": 4
-            },
-            {
-              "widgetName": "sq_ft_label",
-              "displayName": "Text",
-              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-              "searchTags": [
-                "typography",
-                "paragraph",
-                "label"
-              ],
-              "topRow": 64,
-              "bottomRow": 68,
-              "parentRowSpace": 10,
-              "type": "TEXT_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "overflow": "NONE",
-              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "parentColumnSpace": 12.296875,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 53,
-              "dynamicBindingPathList": [
-                {
-                  "key": "truncateButtonColor"
-                },
-                {
-                  "key": "fontFamily"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "shouldTruncate": false,
-              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Square Feet",
-              "key": "l5jl51o74b",
-              "isDeprecated": false,
-              "rightColumn": 62,
-              "textAlign": "LEFT",
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "z0o4swtpu7",
-              "minWidth": 450,
-              "isVisible": true,
-              "fontStyle": "BOLD",
-              "textColor": "#231F20",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "fontSize": "1rem",
-              "minDynamicHeight": 4
-            },
-            {
-              "widgetName": "bedroom_amt",
-              "displayName": "Text",
-              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-              "searchTags": [
-                "typography",
-                "paragraph",
-                "label"
-              ],
-              "topRow": 69,
-              "bottomRow": 73,
-              "parentRowSpace": 10,
-              "type": "TEXT_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "overflow": "NONE",
-              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "parentColumnSpace": 12.296875,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 20,
-              "dynamicBindingPathList": [
-                {
-                  "key": "truncateButtonColor"
-                },
-                {
-                  "key": "fontFamily"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "shouldTruncate": false,
-              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "label",
-              "key": "l5jl51o74b",
-              "isDeprecated": false,
-              "rightColumn": 29,
-              "textAlign": "LEFT",
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "ywm05rj17s",
-              "minWidth": 450,
-              "isVisible": true,
-              "fontStyle": "BOLD",
-              "textColor": "#231F20",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "fontSize": "1rem",
-              "minDynamicHeight": 4
-            },
-            {
-              "widgetName": "bathroom_amt",
-              "displayName": "Text",
-              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-              "searchTags": [
-                "typography",
-                "paragraph",
-                "label"
-              ],
-              "topRow": 69,
-              "bottomRow": 73,
-              "parentRowSpace": 10,
-              "type": "TEXT_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "overflow": "NONE",
-              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "parentColumnSpace": 12.296875,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 36,
-              "dynamicBindingPathList": [
-                {
-                  "key": "truncateButtonColor"
-                },
-                {
-                  "key": "fontFamily"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "shouldTruncate": false,
-              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "label",
-              "key": "l5jl51o74b",
-              "isDeprecated": false,
-              "rightColumn": 45,
-              "textAlign": "LEFT",
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "s83yzq8f0b",
-              "minWidth": 450,
-              "isVisible": true,
-              "fontStyle": "BOLD",
-              "textColor": "#231F20",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "fontSize": "1rem",
-              "minDynamicHeight": 4
-            },
-            {
-              "widgetName": "sq_ft_amt",
-              "displayName": "Text",
-              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-              "searchTags": [
-                "typography",
-                "paragraph",
-                "label"
-              ],
-              "topRow": 69,
-              "bottomRow": 73,
-              "parentRowSpace": 10,
-              "type": "TEXT_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "overflow": "NONE",
-              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "parentColumnSpace": 12.296875,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 53,
-              "dynamicBindingPathList": [
-                {
-                  "key": "truncateButtonColor"
-                },
-                {
-                  "key": "fontFamily"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "shouldTruncate": false,
-              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "label",
-              "key": "l5jl51o74b",
-              "isDeprecated": false,
-              "rightColumn": 62,
-              "textAlign": "LEFT",
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "v40eihcdgr",
-              "minWidth": 450,
-              "isVisible": true,
-              "fontStyle": "BOLD",
-              "textColor": "#231F20",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "fontSize": "1rem",
-              "minDynamicHeight": 4
-            },
-            {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "Tabs1",
+              "widgetName": "apt_1_info",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Tabs",
               "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
-              "topRow": 75,
-              "bottomRow": 94,
+              "topRow": 60,
+              "bottomRow": 79,
               "parentRowSpace": 10,
               "type": "TABS_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 12.296875,
-              "leftColumn": 3,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
@@ -822,13 +391,14 @@
                   "shouldScrollContents": false,
                   "minHeight": 150,
                   "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
                   "children": [],
                   "isDisabled": false,
                   "key": "23t0u795pv",
                   "isDeprecated": false,
-                  "tabName": "Tab 1",
+                  "tabName": "Overview",
                   "rightColumn": 295.125,
                   "detachFromLayout": true,
                   "widgetId": "xt81rsyxg4",
@@ -854,16 +424,113 @@
                   "shouldScrollContents": false,
                   "minHeight": 150,
                   "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
                   "children": [],
                   "isDisabled": false,
                   "key": "23t0u795pv",
                   "isDeprecated": false,
-                  "tabName": "Tab 2",
+                  "tabName": "Amenities",
                   "rightColumn": 295.125,
                   "detachFromLayout": true,
                   "widgetId": "00zup0t7mi",
+                  "minWidth": 450,
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "05w1o7hdbu",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "responsiveBehavior": "fill",
+                  "flexLayers": []
+                },
+                {
+                  "tabId": "tab4i4to3lr5y",
+                  "widgetName": "Canvas3",
+                  "displayName": "Canvas",
+                  "topRow": 1,
+                  "bottomRow": 150,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 190,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [],
+                  "key": "23t0u795pv",
+                  "isDeprecated": false,
+                  "tabName": "Market Price",
+                  "rightColumn": 762.40625,
+                  "detachFromLayout": true,
+                  "widgetId": "gusivhglxa",
+                  "containerStyle": "none",
+                  "minWidth": 450,
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "05w1o7hdbu",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "responsiveBehavior": "fill",
+                  "flexLayers": []
+                },
+                {
+                  "tabId": "tab00emm8idc2",
+                  "widgetName": "Canvas4",
+                  "displayName": "Canvas",
+                  "topRow": 1,
+                  "bottomRow": 150,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 190,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [],
+                  "key": "23t0u795pv",
+                  "isDeprecated": false,
+                  "tabName": "Neighborhood",
+                  "rightColumn": 762.40625,
+                  "detachFromLayout": true,
+                  "widgetId": "jbe3kbw2xa",
+                  "containerStyle": "none",
+                  "minWidth": 450,
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "05w1o7hdbu",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "responsiveBehavior": "fill",
+                  "flexLayers": []
+                },
+                {
+                  "tabId": "tabkpms8rxioa",
+                  "widgetName": "Canvas5",
+                  "displayName": "Canvas",
+                  "topRow": 1,
+                  "bottomRow": 150,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 190,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [],
+                  "key": "23t0u795pv",
+                  "isDeprecated": false,
+                  "tabName": "Contact",
+                  "rightColumn": 762.40625,
+                  "detachFromLayout": true,
+                  "widgetId": "uks16mkez3",
+                  "containerStyle": "none",
                   "minWidth": 450,
                   "isVisible": true,
                   "version": 1,
@@ -878,29 +545,53 @@
               "key": "4y4a0n2w6m",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 61,
+              "rightColumn": 63,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "05w1o7hdbu",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "defaultTab": "Tab 1",
+              "defaultTab": "Overview",
               "shouldShowTabs": true,
               "minWidth": 450,
               "tabsObj": {
                 "tab1": {
-                  "label": "Tab 1",
+                  "label": "Overview",
                   "id": "tab1",
                   "widgetId": "xt81rsyxg4",
                   "isVisible": true,
                   "index": 0,
-                  "positioning": "vertical"
+                  "positioning": "vertical",
+                  "isDuplicateLabel": false
                 },
                 "tab2": {
-                  "label": "Tab 2",
+                  "label": "Amenities",
                   "id": "tab2",
                   "widgetId": "00zup0t7mi",
                   "isVisible": true,
                   "index": 1,
-                  "positioning": "vertical"
+                  "positioning": "vertical",
+                  "isDuplicateLabel": false
+                },
+                "tab4i4to3lr5y": {
+                  "id": "tab4i4to3lr5y",
+                  "index": 2,
+                  "label": "Market Price",
+                  "widgetId": "gusivhglxa",
+                  "isVisible": true,
+                  "isDuplicateLabel": false
+                },
+                "tab00emm8idc2": {
+                  "id": "tab00emm8idc2",
+                  "index": 3,
+                  "label": "Neighborhood",
+                  "widgetId": "jbe3kbw2xa",
+                  "isVisible": true
+                },
+                "tabkpms8rxioa": {
+                  "id": "tabkpms8rxioa",
+                  "index": 4,
+                  "label": "Contact",
+                  "widgetId": "uks16mkez3",
+                  "isVisible": true
                 }
               },
               "isVisible": true,
@@ -909,10 +600,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 75,
+              "originalTopRow": 60,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 94,
+              "originalBottomRow": 79,
               "minDynamicHeight": 15
             }
           ]
@@ -920,7 +611,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Renters - Apartment Details",
+        "id": "Renters - Apartment Details Copy",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -931,5 +622,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "643885a4bbd03e0b8a7eae45_6438b571bbd03e0b8a7eae67"
+  "gitSyncId": "643885a4bbd03e0b8a7eae45_643ad67a7b609228c2b0c9ea"
 }

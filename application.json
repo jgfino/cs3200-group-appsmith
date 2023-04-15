@@ -11,6 +11,10 @@
     {
       "id": "Landlord - Browsing Apartments",
       "isDefault": false
+    },
+    {
+      "id": "Renters - Apartment Details Copy",
+      "isDefault": false
     }
   ],
   "viewMode": false,
