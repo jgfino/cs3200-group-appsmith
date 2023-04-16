@@ -21,6 +21,9 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#F1DEFF",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
