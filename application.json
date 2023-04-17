@@ -5,6 +5,14 @@
       "isDefault": true
     },
     {
+      "id": "Renters - Favorite Apartments",
+      "isDefault": false
+    },
+    {
+      "id": "Renters - Change Profile",
+      "isDefault": false
+    },
+    {
       "id": "Renters - Apartment Details Copy",
       "isDefault": false
     },
