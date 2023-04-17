@@ -81,6 +81,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "apt_1_button",
+                      "onClick": "{{navigateTo('Renters - Apartment Details Copy', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#7e22ce",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -95,7 +96,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 3.07421875,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
@@ -3592,6 +3597,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "apt_3_button",
+                      "onClick": "{{navigateTo('Renters - Apartment Details', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#7e22ce",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -3606,7 +3612,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 3.07421875,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
@@ -4094,6 +4104,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "apt_2_button",
+                      "onClick": "{{navigateTo('Renters - Apartment Details', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#7e22ce",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -4108,7 +4119,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 3.07421875,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
@@ -4720,7 +4735,8 @@
                   "isDisabled": false,
                   "index": 0,
                   "menuItems": {},
-                  "buttonColor": "#db2777"
+                  "buttonColor": "#db2777",
+                  "onClick": "{{navigateTo('Renters - Favorite Apartments', {}, 'SAME_WINDOW')}}"
                 },
                 "groupButton2ymp4d1rnb": {
                   "id": "groupButton2ymp4d1rnb",
@@ -4733,14 +4749,22 @@
                   "isDisabled": false,
                   "isVisible": true,
                   "buttonColor": "#db2777",
-                  "iconName": "person"
+                  "iconName": "person",
+                  "onClick": "{{navigateTo('Renters - Change Profile', {}, 'SAME_WINDOW')}}"
                 }
               },
               "type": "BUTTON_GROUP_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 12.296875,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "groupButtons.groupButton1.onClick"
+                },
+                {
+                  "key": "groupButtons.groupButton2ymp4d1rnb.onClick"
+                }
+              ],
               "leftColumn": 2,
               "dynamicBindingPathList": [
                 {
@@ -4764,7 +4788,9 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                 }
               },
+              "originalTopRow": 12,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalBottomRow": 16,
               "buttonVariant": "PRIMARY"
             },
             {

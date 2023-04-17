@@ -28,7 +28,7 @@
             {
               "boxShadow": "none",
               "widgetName": "profile_icon",
-              "buttonColor": "#db2777",
+              "buttonColor": "#7e22ce",
               "displayName": "Icon Button",
               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
               "searchTags": [
@@ -144,7 +144,7 @@
               "version": 2,
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 27,
+              "originalBottomRow": 28,
               "widgetName": "first_name_input",
               "displayName": "Input",
               "searchTags": [
@@ -172,7 +172,7 @@
               "labelAlignment": "left",
               "renderMode": "CANVAS",
               "responsiveBehavior": "fill",
-              "originalTopRow": 20,
+              "originalTopRow": 21,
               "maxDynamicHeight": 9000,
               "iconAlign": "left",
               "defaultText": "",
@@ -206,7 +206,7 @@
               "version": 2,
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 36,
+              "originalBottomRow": 37,
               "widgetName": "address_input",
               "displayName": "Input",
               "searchTags": [
@@ -234,7 +234,7 @@
               "labelAlignment": "left",
               "renderMode": "CANVAS",
               "responsiveBehavior": "fill",
-              "originalTopRow": 29,
+              "originalTopRow": 30,
               "maxDynamicHeight": 9000,
               "iconAlign": "left",
               "defaultText": "",
@@ -328,7 +328,7 @@
               "version": 2,
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 45,
+              "originalBottomRow": 46,
               "widgetName": "phone_number_input",
               "displayName": "Input",
               "searchTags": [
@@ -356,7 +356,7 @@
               "labelAlignment": "left",
               "renderMode": "CANVAS",
               "responsiveBehavior": "fill",
-              "originalTopRow": 38,
+              "originalTopRow": 39,
               "maxDynamicHeight": 9000,
               "iconAlign": "left",
               "defaultText": "",
@@ -390,7 +390,7 @@
               "version": 2,
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 45,
+              "originalBottomRow": 46,
               "widgetName": "email_address_input",
               "displayName": "Input",
               "searchTags": [
@@ -418,7 +418,7 @@
               "labelAlignment": "left",
               "renderMode": "CANVAS",
               "responsiveBehavior": "fill",
-              "originalTopRow": 38,
+              "originalTopRow": 39,
               "maxDynamicHeight": 9000,
               "iconAlign": "left",
               "defaultText": "",
@@ -449,7 +449,7 @@
                   "key": "borderRadius"
                 }
               ],
-              "text": "Update",
+              "text": "Save Changes",
               "isDisabled": false,
               "key": "kb9vwmi80r",
               "isDeprecated": false,
@@ -464,8 +464,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
+              "originalTopRow": 49,
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalBottomRow": 54,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
@@ -494,7 +496,7 @@
                   "key": "borderRadius"
                 }
               ],
-              "text": "Cancel",
+              "text": "Discard Changes",
               "isDisabled": false,
               "key": "kb9vwmi80r",
               "isDeprecated": false,
@@ -509,8 +511,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
+              "originalTopRow": 49,
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalBottomRow": 54,
               "buttonVariant": "SECONDARY",
               "placement": "CENTER"
             }
