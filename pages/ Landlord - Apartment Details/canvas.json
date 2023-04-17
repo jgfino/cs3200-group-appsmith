@@ -190,7 +190,7 @@
             },
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "apt_1_info",
+              "widgetName": "apt_info",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Tabs",
