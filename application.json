@@ -5,7 +5,7 @@
       "isDefault": true
     },
     {
-      "id": "Renters - Apartment Details",
+      "id": "Renters - Apartment Details Copy",
       "isDefault": false
     },
     {
@@ -13,7 +13,7 @@
       "isDefault": false
     },
     {
-      "id": "Renters - Apartment Details Copy",
+      "id": " Landlord - Apartment Details",
       "isDefault": false
     }
   ],
@@ -22,6 +22,9 @@
   "unreadCommentThreads": 0,
   "color": "#F1DEFF",
   "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
     "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [],
