@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Renters - Favorite Apartments",
-    "slug": "renters-favorite-apartments",
+    "name": "Renters - Favorite Apartments1",
+    "slug": "renters-favorite-apartments1",
     "layouts": [
       {
         "viewMode": false,
@@ -26,6 +26,80 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "fav_and_profile_buttons",
+              "isCanvas": false,
+              "displayName": "Button Group",
+              "iconSVG": "/static/media/icon.d6773218cfb61dcfa5f460d43371e30d.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 13,
+              "bottomRow": 17,
+              "parentRowSpace": 10,
+              "groupButtons": {
+                "groupButton1": {
+                  "label": "See All",
+                  "iconName": "home",
+                  "id": "groupButton1",
+                  "widgetId": "",
+                  "buttonType": "SIMPLE",
+                  "placement": "CENTER",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 0,
+                  "menuItems": {},
+                  "buttonColor": "#db2777"
+                },
+                "groupButton2ymp4d1rnb": {
+                  "id": "groupButton2ymp4d1rnb",
+                  "index": 1,
+                  "label": "Change Profile",
+                  "menuItems": {},
+                  "buttonType": "SIMPLE",
+                  "placement": "CENTER",
+                  "widgetId": "v9gwjim9wv",
+                  "isDisabled": false,
+                  "isVisible": true,
+                  "buttonColor": "#db2777",
+                  "iconName": "person"
+                }
+              },
+              "type": "BUTTON_GROUP_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.296875,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 2,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "key": "91jkcw3s64",
+              "orientation": "horizontal",
+              "isDeprecated": false,
+              "rightColumn": 23,
+              "widgetId": "p19krva78l",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                }
+              },
+              "originalTopRow": 13,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalBottomRow": 17,
+              "buttonVariant": "PRIMARY"
+            },
             {
               "tabId": "",
               "boxShadow": "NONE",
@@ -78,9 +152,50 @@
                   "leftColumn": 0,
                   "children": [
                     {
+                      "boxShadow": "none",
+                      "widgetName": "apt_2_fav_switchCopy",
+                      "displayName": "Switch",
+                      "iconSVG": "/static/media/icon.a3115bc1c224776de2846985c8819f99.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "SWITCH_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.296875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 32,
+                      "dynamicBindingPathList": [],
+                      "labelPosition": "Left",
+                      "isDisabled": false,
+                      "key": "vv8o3w7hhm",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "kq9ntmy12g",
+                      "accentColor": "#db2777",
+                      "isVisible": true,
+                      "label": "Favorite",
+                      "defaultSwitchState": true,
+                      "version": 1,
+                      "parentId": "rst7384sis",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 0,
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 4,
+                      "minDynamicHeight": 4
+                    },
+                    {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "apt_1_button",
+                      "onClick": "{{navigateTo('Renters - Apartment Details Copy', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#7e22ce",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -95,7 +210,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 3.07421875,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
@@ -459,43 +578,6 @@
                       "originalBottomRow": 22,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
-                    },
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "apt_1_heart_button",
-                      "buttonColor": "#db2777",
-                      "displayName": "Icon Button",
-                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "parentRowSpace": 10,
-                      "type": "ICON_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.296875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 49,
-                      "dynamicBindingPathList": [],
-                      "isDisabled": false,
-                      "key": "34qboy2xjo",
-                      "isDeprecated": false,
-                      "rightColumn": 63,
-                      "iconName": "heart",
-                      "widgetId": "u0gqo3051d",
-                      "minWidth": 50,
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "rst7384sis",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 96,
-                      "borderRadius": "0.375rem",
-                      "originalBottomRow": 100,
-                      "buttonVariant": "TERTIARY"
                     }
                   ]
                 }
@@ -572,43 +654,6 @@
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "apt_4_heart_button",
-                      "buttonColor": "#db2777",
-                      "displayName": "Icon Button",
-                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "parentRowSpace": 10,
-                      "type": "ICON_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.296875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 50,
-                      "dynamicBindingPathList": [],
-                      "isDisabled": false,
-                      "key": "34qboy2xjo",
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "iconName": "heart",
-                      "widgetId": "fncy5u1c00",
-                      "minWidth": 50,
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "qwyivc9kou",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 96,
-                      "borderRadius": "0.375rem",
-                      "originalBottomRow": 100,
-                      "buttonVariant": "TERTIARY"
-                    },
                     {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
@@ -991,6 +1036,46 @@
                       "originalBottomRow": 22,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "apt_4_fav_switch",
+                      "displayName": "Switch",
+                      "iconSVG": "/static/media/icon.a3115bc1c224776de2846985c8819f99.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "SWITCH_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.296875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 33,
+                      "dynamicBindingPathList": [],
+                      "labelPosition": "Left",
+                      "isDisabled": false,
+                      "key": "vv8o3w7hhm",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "5ni60by3sy",
+                      "accentColor": "#db2777",
+                      "isVisible": true,
+                      "label": "Favorite",
+                      "defaultSwitchState": true,
+                      "version": 1,
+                      "parentId": "qwyivc9kou",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 0,
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 6,
+                      "minDynamicHeight": 4
                     }
                   ]
                 }
@@ -1068,43 +1153,6 @@
                   "leftColumn": 0,
                   "children": [
                     {
-                      "boxShadow": "none",
-                      "widgetName": "apt_7_heart_button",
-                      "buttonColor": "#db2777",
-                      "displayName": "Icon Button",
-                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "parentRowSpace": 10,
-                      "type": "ICON_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.296875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 49,
-                      "dynamicBindingPathList": [],
-                      "isDisabled": false,
-                      "key": "34qboy2xjo",
-                      "isDeprecated": false,
-                      "rightColumn": 63,
-                      "iconName": "heart",
-                      "widgetId": "alvoic3b3x",
-                      "minWidth": 50,
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "3mkbfo4uog",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 96,
-                      "borderRadius": "0.375rem",
-                      "originalBottomRow": 100,
-                      "buttonVariant": "TERTIARY"
-                    },
-                    {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "apt_7_button",
@@ -1133,7 +1181,7 @@
                       "isDisabled": false,
                       "key": "drx145f907",
                       "isDeprecated": false,
-                      "rightColumn": 63,
+                      "rightColumn": 64,
                       "isDefaultClickDisabled": true,
                       "widgetId": "f7p97z84zw",
                       "minWidth": 120,
@@ -1226,7 +1274,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 3.07421875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 50,
+                      "leftColumn": 51,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -1243,7 +1291,7 @@
                       "text": "2",
                       "key": "j0if6ep4e5",
                       "isDeprecated": false,
-                      "rightColumn": 57,
+                      "rightColumn": 58,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "ne7cbl0afi",
@@ -1486,6 +1534,46 @@
                       "originalBottomRow": 22,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "apt_7_fav_switch",
+                      "displayName": "Switch",
+                      "iconSVG": "/static/media/icon.a3115bc1c224776de2846985c8819f99.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "SWITCH_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.296875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 32,
+                      "dynamicBindingPathList": [],
+                      "labelPosition": "Left",
+                      "isDisabled": false,
+                      "key": "vv8o3w7hhm",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "l1lievorjg",
+                      "accentColor": "#db2777",
+                      "isVisible": true,
+                      "label": "Favorite",
+                      "defaultSwitchState": true,
+                      "version": 1,
+                      "parentId": "3mkbfo4uog",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 0,
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 5,
+                      "minDynamicHeight": 4
                     }
                   ]
                 }
@@ -1562,43 +1650,6 @@
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "apt_8_heart_button",
-                      "buttonColor": "#db2777",
-                      "displayName": "Icon Button",
-                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "parentRowSpace": 10,
-                      "type": "ICON_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.296875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 50,
-                      "dynamicBindingPathList": [],
-                      "isDisabled": false,
-                      "key": "34qboy2xjo",
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "iconName": "heart",
-                      "widgetId": "d7aafcgxkn",
-                      "minWidth": 50,
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "bwefod3648",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 96,
-                      "borderRadius": "0.375rem",
-                      "originalBottomRow": 100,
-                      "buttonVariant": "TERTIARY"
-                    },
                     {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
@@ -1981,6 +2032,46 @@
                       "originalBottomRow": 22,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "apt_8_fav_switch",
+                      "displayName": "Switch",
+                      "iconSVG": "/static/media/icon.a3115bc1c224776de2846985c8819f99.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "SWITCH_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.296875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 33,
+                      "dynamicBindingPathList": [],
+                      "labelPosition": "Left",
+                      "isDisabled": false,
+                      "key": "vv8o3w7hhm",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "qln6xguuwg",
+                      "accentColor": "#db2777",
+                      "isVisible": true,
+                      "label": "Favorite",
+                      "defaultSwitchState": true,
+                      "version": 1,
+                      "parentId": "bwefod3648",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 0,
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 5,
+                      "minDynamicHeight": 4
                     }
                   ]
                 }
@@ -2057,43 +2148,6 @@
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "apt_9_heart_button",
-                      "buttonColor": "#db2777",
-                      "displayName": "Icon Button",
-                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "parentRowSpace": 10,
-                      "type": "ICON_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.296875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 50,
-                      "dynamicBindingPathList": [],
-                      "isDisabled": false,
-                      "key": "34qboy2xjo",
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "iconName": "heart",
-                      "widgetId": "rx9dnwdrqe",
-                      "minWidth": 50,
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "k5hzdwczkg",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 96,
-                      "borderRadius": "0.375rem",
-                      "originalBottomRow": 100,
-                      "buttonVariant": "TERTIARY"
-                    },
                     {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
@@ -2476,6 +2530,46 @@
                       "originalBottomRow": 22,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "apt_9_fav_switch",
+                      "displayName": "Switch",
+                      "iconSVG": "/static/media/icon.a3115bc1c224776de2846985c8819f99.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "SWITCH_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.296875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 33,
+                      "dynamicBindingPathList": [],
+                      "labelPosition": "Left",
+                      "isDisabled": false,
+                      "key": "vv8o3w7hhm",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "i6pwjdq97w",
+                      "accentColor": "#db2777",
+                      "isVisible": true,
+                      "label": "Favorite",
+                      "defaultSwitchState": true,
+                      "version": 1,
+                      "parentId": "k5hzdwczkg",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 0,
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 4,
+                      "minDynamicHeight": 4
                     }
                   ]
                 }
@@ -2498,7 +2592,7 @@
               "originalTopRow": 67,
               "borderRadius": "0.375rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 91,
+              "originalBottomRow": 86,
               "minDynamicHeight": 10
             },
             {
@@ -2552,43 +2646,6 @@
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "apt_5_heart_button",
-                      "buttonColor": "#db2777",
-                      "displayName": "Icon Button",
-                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "parentRowSpace": 10,
-                      "type": "ICON_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.296875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 49,
-                      "dynamicBindingPathList": [],
-                      "isDisabled": false,
-                      "key": "34qboy2xjo",
-                      "isDeprecated": false,
-                      "rightColumn": 63,
-                      "iconName": "heart",
-                      "widgetId": "vptxs6cmqb",
-                      "minWidth": 50,
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "11d8j8z44a",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 96,
-                      "borderRadius": "0.375rem",
-                      "originalBottomRow": 100,
-                      "buttonVariant": "TERTIARY"
-                    },
                     {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
@@ -2971,6 +3028,46 @@
                       "originalBottomRow": 22,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "apt_5_fav_switch",
+                      "displayName": "Switch",
+                      "iconSVG": "/static/media/icon.a3115bc1c224776de2846985c8819f99.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "SWITCH_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.296875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 31,
+                      "dynamicBindingPathList": [],
+                      "labelPosition": "Left",
+                      "isDisabled": false,
+                      "key": "vv8o3w7hhm",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 62,
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "damzvjnuz4",
+                      "accentColor": "#db2777",
+                      "isVisible": true,
+                      "label": "Favorite",
+                      "defaultSwitchState": true,
+                      "version": 1,
+                      "parentId": "11d8j8z44a",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 0,
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 4,
+                      "minDynamicHeight": 4
                     }
                   ]
                 }
@@ -3047,43 +3144,6 @@
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "apt_6_heart_button",
-                      "buttonColor": "#db2777",
-                      "displayName": "Icon Button",
-                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "parentRowSpace": 10,
-                      "type": "ICON_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.296875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 49,
-                      "dynamicBindingPathList": [],
-                      "isDisabled": false,
-                      "key": "34qboy2xjo",
-                      "isDeprecated": false,
-                      "rightColumn": 63,
-                      "iconName": "heart",
-                      "widgetId": "2mvfrpoed9",
-                      "minWidth": 50,
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "vsrzbc7tlg",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 96,
-                      "borderRadius": "0.375rem",
-                      "originalBottomRow": 100,
-                      "buttonVariant": "TERTIARY"
-                    },
                     {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
@@ -3206,7 +3266,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 3.07421875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 49,
+                      "leftColumn": 50,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -3223,7 +3283,7 @@
                       "text": "2",
                       "key": "j0if6ep4e5",
                       "isDeprecated": false,
-                      "rightColumn": 56,
+                      "rightColumn": 57,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "0nvg1ghw5b",
@@ -3262,7 +3322,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 3.07421875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 29,
+                      "leftColumn": 30,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -3279,7 +3339,7 @@
                       "text": "Baths:\n",
                       "key": "j0if6ep4e5",
                       "isDeprecated": false,
-                      "rightColumn": 49,
+                      "rightColumn": 50,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "09bhk1c1nc",
@@ -3466,6 +3526,46 @@
                       "originalBottomRow": 4,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "apt_6_fav_switch",
+                      "displayName": "Switch",
+                      "iconSVG": "/static/media/icon.a3115bc1c224776de2846985c8819f99.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "SWITCH_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.296875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 33,
+                      "dynamicBindingPathList": [],
+                      "labelPosition": "Left",
+                      "isDisabled": false,
+                      "key": "vv8o3w7hhm",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "a79t4fl21v",
+                      "accentColor": "#db2777",
+                      "isVisible": true,
+                      "label": "Favorite",
+                      "defaultSwitchState": true,
+                      "version": 1,
+                      "parentId": "vsrzbc7tlg",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 0,
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 4,
+                      "minDynamicHeight": 4
                     }
                   ]
                 }
@@ -3543,46 +3643,10 @@
                   "leftColumn": 0,
                   "children": [
                     {
-                      "boxShadow": "none",
-                      "widgetName": "apt_3_heart_button",
-                      "buttonColor": "#db2777",
-                      "displayName": "Icon Button",
-                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "parentRowSpace": 10,
-                      "type": "ICON_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.296875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 49,
-                      "dynamicBindingPathList": [],
-                      "isDisabled": false,
-                      "key": "34qboy2xjo",
-                      "isDeprecated": false,
-                      "rightColumn": 63,
-                      "iconName": "heart",
-                      "widgetId": "bsw1ki2taf",
-                      "minWidth": 50,
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "9wwwdt271p",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 96,
-                      "borderRadius": "0.375rem",
-                      "originalBottomRow": 100,
-                      "buttonVariant": "TERTIARY"
-                    },
-                    {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "apt_3_button",
+                      "onClick": "{{navigateTo('Renters - Apartment Details', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#7e22ce",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -3597,7 +3661,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 3.07421875,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
@@ -3701,7 +3769,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 3.07421875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 49,
+                      "leftColumn": 50,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -3718,7 +3786,7 @@
                       "text": "2",
                       "key": "j0if6ep4e5",
                       "isDeprecated": false,
-                      "rightColumn": 56,
+                      "rightColumn": 57,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "6a5mf8mfvn",
@@ -3757,7 +3825,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 3.07421875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 29,
+                      "leftColumn": 30,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -3774,7 +3842,7 @@
                       "text": "Baths:\n",
                       "key": "j0if6ep4e5",
                       "isDeprecated": false,
-                      "rightColumn": 49,
+                      "rightColumn": 50,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "rlqrd6j214",
@@ -3961,6 +4029,46 @@
                       "originalBottomRow": 22,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "apt_3_fav_switch",
+                      "displayName": "Switch",
+                      "iconSVG": "/static/media/icon.a3115bc1c224776de2846985c8819f99.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "SWITCH_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.296875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 32,
+                      "dynamicBindingPathList": [],
+                      "labelPosition": "Left",
+                      "isDisabled": false,
+                      "key": "vv8o3w7hhm",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "zoeiddgz3h",
+                      "accentColor": "#db2777",
+                      "isVisible": true,
+                      "label": "Favorite",
+                      "defaultSwitchState": true,
+                      "version": 1,
+                      "parentId": "9wwwdt271p",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 0,
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 4,
+                      "minDynamicHeight": 4
                     }
                   ]
                 }
@@ -4038,46 +4146,10 @@
                   "leftColumn": 0,
                   "children": [
                     {
-                      "boxShadow": "none",
-                      "widgetName": "apt_2_heart_button",
-                      "buttonColor": "#db2777",
-                      "displayName": "Icon Button",
-                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "parentRowSpace": 10,
-                      "type": "ICON_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.296875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 50,
-                      "dynamicBindingPathList": [],
-                      "isDisabled": false,
-                      "key": "34qboy2xjo",
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "iconName": "heart",
-                      "widgetId": "78618qp45i",
-                      "minWidth": 50,
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "8a69ydfbdy",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 96,
-                      "borderRadius": "0.375rem",
-                      "originalBottomRow": 100,
-                      "buttonVariant": "TERTIARY"
-                    },
-                    {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "apt_2_button",
+                      "onClick": "{{navigateTo('Renters - Apartment Details', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#7e22ce",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -4092,7 +4164,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 3.07421875,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
@@ -4456,6 +4532,46 @@
                       "originalBottomRow": 22,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "apt_2_fav_switch",
+                      "displayName": "Switch",
+                      "iconSVG": "/static/media/icon.a3115bc1c224776de2846985c8819f99.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "SWITCH_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.296875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 31,
+                      "dynamicBindingPathList": [],
+                      "labelPosition": "Left",
+                      "isDisabled": false,
+                      "key": "vv8o3w7hhm",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 62,
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "d3dl3zrm2k",
+                      "accentColor": "#db2777",
+                      "isVisible": true,
+                      "label": "Favorite",
+                      "defaultSwitchState": true,
+                      "version": 1,
+                      "parentId": "8a69ydfbdy",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 0,
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 4,
+                      "minDynamicHeight": 4
                     }
                   ]
                 }
@@ -4514,7 +4630,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Favorite Apartments",
+              "text": "Favorite apartments",
               "key": "j0if6ep4e5",
               "isDeprecated": false,
               "rightColumn": 35,
@@ -4544,8 +4660,8 @@
               "defaultStartValue": 10,
               "tooltipAlwaysOn": false,
               "labelText": "Budget",
-              "topRow": 12,
-              "bottomRow": 16,
+              "topRow": 13,
+              "bottomRow": 17,
               "parentRowSpace": 10,
               "labelWidth": "6",
               "type": "RANGE_SLIDER_WIDGET",
@@ -4634,87 +4750,13 @@
               "originalBottomRow": 4,
               "fontSize": "1rem",
               "minDynamicHeight": 4
-            },
-            {
-              "boxShadow": "none",
-              "widgetName": "fav_and_profile_buttons",
-              "isCanvas": false,
-              "displayName": "Button Group",
-              "iconSVG": "/static/media/icon.d6773218cfb61dcfa5f460d43371e30d.svg",
-              "searchTags": [
-                "click",
-                "submit"
-              ],
-              "topRow": 12,
-              "bottomRow": 16,
-              "parentRowSpace": 10,
-              "groupButtons": {
-                "groupButton1": {
-                  "label": "See All",
-                  "iconName": "home",
-                  "id": "groupButton1",
-                  "widgetId": "",
-                  "buttonType": "SIMPLE",
-                  "placement": "CENTER",
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "index": 0,
-                  "menuItems": {},
-                  "buttonColor": "#db2777"
-                },
-                "groupButton2ymp4d1rnb": {
-                  "id": "groupButton2ymp4d1rnb",
-                  "index": 1,
-                  "label": "Change Profile",
-                  "menuItems": {},
-                  "buttonType": "SIMPLE",
-                  "placement": "CENTER",
-                  "widgetId": "v9gwjim9wv",
-                  "isDisabled": false,
-                  "isVisible": true,
-                  "buttonColor": "#db2777",
-                  "iconName": "person"
-                }
-              },
-              "type": "BUTTON_GROUP_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 12.296875,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 2,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "key": "91jkcw3s64",
-              "orientation": "horizontal",
-              "isDeprecated": false,
-              "rightColumn": 23,
-              "widgetId": "tp4yf7lnmb",
-              "minWidth": 450,
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "childStylesheet": {
-                "button": {
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-                }
-              },
-              "originalTopRow": 12,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 16,
-              "buttonVariant": "PRIMARY"
             }
           ]
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Renters - Favorite Apartments",
+        "id": "Renters - Favorite Apartments1",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -4725,5 +4767,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "643885a4bbd03e0b8a7eae45_643dca827b609228c2b0ca25"
+  "gitSyncId": "643885a4bbd03e0b8a7eae45_643f1c387b609228c2b0ca42"
 }
