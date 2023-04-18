@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1130,
+          "bottomRow": 1100,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -40,7 +40,7 @@
                 "group"
               ],
               "topRow": 19,
-              "bottomRow": 38,
+              "bottomRow": 37,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -57,7 +57,7 @@
                   "detachFromLayout": true,
                   "widgetId": "rst7384sis",
                   "containerStyle": "none",
-                  "bottomRow": 190,
+                  "bottomRow": 180,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "isVisible": true,
@@ -89,8 +89,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 13,
-                      "bottomRow": 17,
+                      "topRow": 12,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -139,7 +139,7 @@
                         "label"
                       ],
                       "topRow": 8,
-                      "bottomRow": 13,
+                      "bottomRow": 12,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -527,7 +527,7 @@
               "originalTopRow": 19,
               "borderRadius": "0.375rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 38,
+              "originalBottomRow": 37,
               "minDynamicHeight": 10
             },
             {
@@ -543,8 +543,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 43,
-              "bottomRow": 62,
+              "topRow": 42,
+              "bottomRow": 60,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -561,7 +561,7 @@
                   "detachFromLayout": true,
                   "widgetId": "qwyivc9kou",
                   "containerStyle": "none",
-                  "bottomRow": 190,
+                  "bottomRow": 180,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "isVisible": true,
@@ -592,8 +592,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 13,
-                      "bottomRow": 17,
+                      "topRow": 12,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -638,7 +638,7 @@
                         "label"
                       ],
                       "topRow": 8,
-                      "bottomRow": 13,
+                      "bottomRow": 12,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1026,10 +1026,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 43,
+              "originalTopRow": 42,
               "borderRadius": "0.375rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 62,
+              "originalBottomRow": 60,
               "minDynamicHeight": 10
             },
             {
@@ -1045,8 +1045,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 67,
-              "bottomRow": 86,
+              "topRow": 65,
+              "bottomRow": 83,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -1063,7 +1063,7 @@
                   "detachFromLayout": true,
                   "widgetId": "3mkbfo4uog",
                   "containerStyle": "none",
-                  "bottomRow": 190,
+                  "bottomRow": 180,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "isVisible": true,
@@ -1094,8 +1094,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 13,
-                      "bottomRow": 17,
+                      "topRow": 12,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -1140,7 +1140,7 @@
                         "label"
                       ],
                       "topRow": 8,
-                      "bottomRow": 13,
+                      "bottomRow": 12,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1528,10 +1528,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 67,
+              "originalTopRow": 65,
               "borderRadius": "0.375rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 86,
+              "originalBottomRow": 83,
               "minDynamicHeight": 10
             },
             {
@@ -1547,8 +1547,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 67,
-              "bottomRow": 86,
+              "topRow": 65,
+              "bottomRow": 83,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -1565,7 +1565,7 @@
                   "detachFromLayout": true,
                   "widgetId": "bwefod3648",
                   "containerStyle": "none",
-                  "bottomRow": 190,
+                  "bottomRow": 180,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "isVisible": true,
@@ -1596,8 +1596,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 13,
-                      "bottomRow": 17,
+                      "topRow": 12,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -1642,7 +1642,7 @@
                         "label"
                       ],
                       "topRow": 8,
-                      "bottomRow": 13,
+                      "bottomRow": 12,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -2030,10 +2030,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 67,
+              "originalTopRow": 65,
               "borderRadius": "0.375rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 86,
+              "originalBottomRow": 83,
               "minDynamicHeight": 10
             },
             {
@@ -2049,8 +2049,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 67,
-              "bottomRow": 86,
+              "topRow": 65,
+              "bottomRow": 83,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -2067,7 +2067,7 @@
                   "detachFromLayout": true,
                   "widgetId": "k5hzdwczkg",
                   "containerStyle": "none",
-                  "bottomRow": 190,
+                  "bottomRow": 180,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "isVisible": true,
@@ -2098,8 +2098,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 13,
-                      "bottomRow": 17,
+                      "topRow": 12,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -2144,7 +2144,7 @@
                         "label"
                       ],
                       "topRow": 8,
-                      "bottomRow": 13,
+                      "bottomRow": 12,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -2532,10 +2532,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 67,
+              "originalTopRow": 65,
               "borderRadius": "0.375rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 86,
+              "originalBottomRow": 83,
               "minDynamicHeight": 10
             },
             {
@@ -2551,8 +2551,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 43,
-              "bottomRow": 62,
+              "topRow": 42,
+              "bottomRow": 60,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -2569,7 +2569,7 @@
                   "detachFromLayout": true,
                   "widgetId": "11d8j8z44a",
                   "containerStyle": "none",
-                  "bottomRow": 190,
+                  "bottomRow": 180,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "isVisible": true,
@@ -2600,8 +2600,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 13,
-                      "bottomRow": 17,
+                      "topRow": 12,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -2646,7 +2646,7 @@
                         "label"
                       ],
                       "topRow": 8,
-                      "bottomRow": 13,
+                      "bottomRow": 12,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -3034,10 +3034,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 43,
+              "originalTopRow": 42,
               "borderRadius": "0.375rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 62,
+              "originalBottomRow": 60,
               "minDynamicHeight": 10
             },
             {
@@ -3053,8 +3053,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 43,
-              "bottomRow": 62,
+              "topRow": 42,
+              "bottomRow": 60,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -3071,7 +3071,7 @@
                   "detachFromLayout": true,
                   "widgetId": "vsrzbc7tlg",
                   "containerStyle": "none",
-                  "bottomRow": 190,
+                  "bottomRow": 180,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "isVisible": true,
@@ -3102,8 +3102,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 13,
-                      "bottomRow": 17,
+                      "topRow": 12,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -3148,7 +3148,7 @@
                         "label"
                       ],
                       "topRow": 8,
-                      "bottomRow": 13,
+                      "bottomRow": 12,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -3536,10 +3536,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 43,
+              "originalTopRow": 42,
               "borderRadius": "0.375rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 62,
+              "originalBottomRow": 60,
               "minDynamicHeight": 10
             },
             {
@@ -3556,7 +3556,7 @@
                 "group"
               ],
               "topRow": 19,
-              "bottomRow": 38,
+              "bottomRow": 37,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -3573,7 +3573,7 @@
                   "detachFromLayout": true,
                   "widgetId": "9wwwdt271p",
                   "containerStyle": "none",
-                  "bottomRow": 190,
+                  "bottomRow": 180,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "isVisible": true,
@@ -3605,8 +3605,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 13,
-                      "bottomRow": 17,
+                      "topRow": 12,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -3655,7 +3655,7 @@
                         "label"
                       ],
                       "topRow": 8,
-                      "bottomRow": 13,
+                      "bottomRow": 12,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -4046,7 +4046,7 @@
               "originalTopRow": 19,
               "borderRadius": "0.375rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 38,
+              "originalBottomRow": 37,
               "minDynamicHeight": 10
             },
             {
@@ -4063,7 +4063,7 @@
                 "group"
               ],
               "topRow": 19,
-              "bottomRow": 38,
+              "bottomRow": 37,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -4080,7 +4080,7 @@
                   "detachFromLayout": true,
                   "widgetId": "8a69ydfbdy",
                   "containerStyle": "none",
-                  "bottomRow": 190,
+                  "bottomRow": 180,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "isVisible": true,
@@ -4112,8 +4112,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 13,
-                      "bottomRow": 17,
+                      "topRow": 12,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -4162,7 +4162,7 @@
                         "label"
                       ],
                       "topRow": 8,
-                      "bottomRow": 13,
+                      "bottomRow": 12,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -4553,7 +4553,7 @@
               "originalTopRow": 19,
               "borderRadius": "0.375rem",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 38,
+              "originalBottomRow": 37,
               "minDynamicHeight": 10
             },
             {
@@ -4801,8 +4801,8 @@
               "searchTags": [
                 "choice"
               ],
-              "topRow": 106,
-              "bottomRow": 113,
+              "topRow": 103,
+              "bottomRow": 110,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "RADIO_GROUP_WIDGET",
@@ -4840,9 +4840,9 @@
               "labelAlignment": "left",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 106,
+              "originalTopRow": 103,
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 113,
+              "originalBottomRow": 110,
               "isInline": true,
               "alignment": "left",
               "minDynamicHeight": 4
@@ -4854,8 +4854,8 @@
               "searchTags": [
                 "stars"
               ],
-              "topRow": 96,
-              "bottomRow": 100,
+              "topRow": 93,
+              "bottomRow": 97,
               "parentRowSpace": 10,
               "type": "RATE_WIDGET",
               "maxCount": "1",
@@ -4883,12 +4883,12 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "defaultRate": "0",
-              "originalTopRow": 96,
+              "originalTopRow": 93,
               "activeColor": "{{appsmith.theme.colors.primaryColor}}",
               "size": "LARGE",
               "maxDynamicHeight": 9000,
               "isAllowHalf": false,
-              "originalBottomRow": 100,
+              "originalBottomRow": 97,
               "minDynamicHeight": 4,
               "tooltips": ""
             },
@@ -4899,8 +4899,8 @@
               "searchTags": [
                 "boolean"
               ],
-              "topRow": 108,
-              "bottomRow": 112,
+              "topRow": 105,
+              "bottomRow": 109,
               "parentRowSpace": 10,
               "type": "CHECKBOX_WIDGET",
               "alignWidget": "LEFT",
@@ -4933,11 +4933,11 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 108,
+              "originalTopRow": 105,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "defaultCheckedState": true,
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 112,
+              "originalBottomRow": 109,
               "minDynamicHeight": 4
             }
           ]
