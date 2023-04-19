@@ -2304,8 +2304,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.URL.queryParams.propertyID",
-                "appsmith.URL.queryParams.leaseID"
+                "appsmith.URL.queryParams.leaseID",
+                "appsmith.URL.queryParams.propertyID"
               ],
               "timeoutInMillisecond": 10000
             }
