@@ -482,6 +482,11 @@
                       "boxShadow": "none",
                       "widgetName": "select_property",
                       "isFilterable": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onDropdownOpen"
+                        }
+                      ],
                       "displayName": "Select",
                       "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
                       "labelText": "Select a Property",
@@ -498,7 +503,11 @@
                       "defaultOptionValue": "",
                       "animateLoading": true,
                       "parentColumnSpace": 11.625,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onDropdownOpen"
+                        }
+                      ],
                       "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
@@ -527,6 +536,7 @@
                       "isVisible": true,
                       "version": 1,
                       "parentId": "i1okh1q6pk",
+                      "onDropdownOpen": "{{Get_Properties_Dropdown.run({\"userID\": utils.splitValue(landlord_select_act.selectedOptionValue)[0]})}}",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
                       "isLoading": false,
@@ -1423,7 +1433,9 @@
               "name": "Get_Properties_Dropdown",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "this.params.userID"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
