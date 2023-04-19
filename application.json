@@ -5,10 +5,6 @@
       "isDefault": true
     },
     {
-      "id": "Renters - Favorite Apartments1",
-      "isDefault": false
-    },
-    {
       "id": "Renters - Change Profile",
       "isDefault": false
     },
@@ -30,7 +26,7 @@
   "unreadCommentThreads": 0,
   "color": "#F1DEFF",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "TABLET"
   },
   "publishedAppLayout": {
     "type": "FLUID"
