@@ -9,6 +9,9 @@ export default {
 		})
 	},
 	getLeases (value) {
+		if(!value) {
+			return []
+		}
 		const params = value.split(',')
 		return Get_Leases.run({"userID": params[0], "landlordID": params[1]})			
 	},
@@ -21,5 +24,8 @@ export default {
 	async deleteLease (propertyID, leaseID, currentLandlord) {
 		await Delete_Lease.run({"propertyID": propertyID, "leaseID": leaseID})
 		this.getLeases(currentLandlord)
+	},
+	async onLoad() {
+		this.getLeases()
 	}
 }

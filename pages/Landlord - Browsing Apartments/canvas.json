@@ -815,27 +815,14 @@
             },
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "currentItemsView": "{{[]}}",
-              "triggeredItemView": "{{{}}}",
-              "widgetName": "lease_list",
               "requiresFlatWidgetChildren": true,
-              "listData": "{{utils.getLeases.data}}",
               "isCanvas": true,
-              "displayName": "List",
               "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
               "topRow": 18,
-              "bottomRow": 132,
               "pageSize": 5,
-              "parentRowSpace": 10,
               "type": "LIST_WIDGET_V2",
               "itemSpacing": 8,
-              "hideCard": false,
-              "templateBottomRow": 16,
-              "mainContainerId": "fznrsa9z2l",
               "animateLoading": true,
-              "primaryKeys": "{{lease_list.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
-              "parentColumnSpace": 12.3125,
-              "dynamicTriggerPathList": [],
               "dynamicBindingPathList": [
                 {
                   "key": "currentItemsView"
@@ -863,7 +850,7 @@
                 }
               ],
               "leftColumn": 2,
-              "gridType": "vertical",
+              "serverSidePagination": false,
               "enhancements": true,
               "children": [
                 {
@@ -1379,22 +1366,12 @@
                   "flexLayers": []
                 }
               ],
-              "positioning": "fixed",
-              "key": "5rgh3ncump",
-              "backgroundColor": "transparent",
-              "isDeprecated": false,
-              "rightColumn": 63,
               "itemBackgroundColor": "#FFFFFF",
-              "widgetId": "pb2ya8qztl",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
-              "parentId": "0",
               "hasMetaWidgets": true,
-              "renderMode": "CANVAS",
               "isLoading": false,
-              "responsiveBehavior": "fill",
               "mainCanvasId": "ogp03ov5cj",
-              "originalTopRow": 18,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "originalBottomRow": 132,
               "additionalStaticProps": [
@@ -1403,6 +1380,30 @@
                 "prefixMetaWidgetId",
                 "metaWidgetId"
               ],
+              "currentItemsView": "{{[]}}",
+              "triggeredItemView": "{{{}}}",
+              "widgetName": "lease_list",
+              "listData": "{{utils.getLeases.data}}",
+              "displayName": "List",
+              "bottomRow": 132,
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "templateBottomRow": 16,
+              "mainContainerId": "fznrsa9z2l",
+              "primaryKeys": "{{lease_list.listData.map((currentItem, currentIndex) => currentItem[\"PropertyID\"] )}}",
+              "parentColumnSpace": 12.3125,
+              "dynamicTriggerPathList": [],
+              "gridType": "vertical",
+              "positioning": "fixed",
+              "key": "5rgh3ncump",
+              "backgroundColor": "transparent",
+              "isDeprecated": false,
+              "rightColumn": 63,
+              "widgetId": "pb2ya8qztl",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "responsiveBehavior": "fill",
+              "originalTopRow": 18,
               "selectedItemView": "{{{}}}"
             }
           ]
@@ -1431,6 +1432,19 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Landlord - Browsing Apartments_utils.onLoad",
+              "name": "utils.onLoad",
+              "collectionId": "Landlord - Browsing Apartments_utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async function () {\n  utils.getLeases();\n}"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
