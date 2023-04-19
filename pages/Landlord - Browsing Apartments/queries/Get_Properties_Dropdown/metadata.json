@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Get_Is_Favorite",
+    "name": "Get_Properties_Dropdown",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/r/favorites/{{browse_select.selectedOptionValue}}/{{this.params.id}}"
+        "url": "web:4000/l/properties"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Renters - Browsing Apartments",
+    "pageId": "Landlord - Browsing Apartments",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,25 +36,18 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "datasourceUrl"
-      }
-    ],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "browse_select.selectedOptionValue",
-      "this.params.id"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Renters - Browsing Apartments_Get_Is_Favorite",
+  "id": "Landlord - Browsing Apartments_Get_Properties_Dropdown",
   "deleted": false,
-  "gitSyncId": "643f12d02f048d52c3c3b04f_643f78e5dd8d180808816525"
+  "gitSyncId": "643f12d02f048d52c3c3b04f_6440053bdd8d180808816561"
 }

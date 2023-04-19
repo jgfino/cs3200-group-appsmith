@@ -1,0 +1,9 @@
+{
+	"property_id": {{select_property.selectedOptionValue}},
+	"start_date": {{date_start.formattedDate}},
+	"end_date": {{date_end.formattedDate}},
+	"landlord_user_id": {{utils.splitValue(landlord_select_act.selectedOptionValue)[0]}},
+	"landlord_id": {{utils.splitValue(landlord_select_act.selectedOptionValue)[1]}},
+	"renter_user_id": {{utils.splitValue(select_renter.selectedOptionValue)[0]}},
+	"renter_id": {{utils.splitValue(select_renter.selectedOptionValue)[1]}}
+}

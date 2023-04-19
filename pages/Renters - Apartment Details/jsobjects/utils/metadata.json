@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Renters - Apartment Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Renters - Apartment Details_utils",
+  "deleted": false,
+  "gitSyncId": "643f12d02f048d52c3c3b04f_644001f9dd8d180808816558"
+}

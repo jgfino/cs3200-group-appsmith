@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Landlord - Browsing Apartments",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "leaseData",
+        "value": "[]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Landlord - Browsing Apartments_utils",
+  "deleted": false,
+  "gitSyncId": "643f12d02f048d52c3c3b04f_644007b9f715db2577aee982"
+}

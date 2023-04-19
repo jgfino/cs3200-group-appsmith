@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Renters - Browsing Apartments",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Renters - Browsing Apartments_utils",
+  "deleted": false,
+  "gitSyncId": "643f12d02f048d52c3c3b04f_643ffe8bdd8d18080881654c"
+}

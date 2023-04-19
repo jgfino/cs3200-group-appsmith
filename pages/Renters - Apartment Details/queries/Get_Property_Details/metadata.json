@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Get_Properties_Budget_Range",
+    "name": "Get_Property_Details",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/r/properties/{{browse_select.selectedOptionValue}}/{{budget_slider.start}}/{{budget_slider.end}}"
+        "url": "web:4000/r/properties/{{appsmith.URL.queryParams.id}}"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Renters - Browsing Apartments",
+    "pageId": "Renters - Apartment Details",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "datasourceUrl"
@@ -46,16 +46,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "browse_select.selectedOptionValue",
-      "budget_slider.end",
-      "budget_slider.start"
+      "appsmith.URL.queryParams.id"
     ],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Renters - Browsing Apartments_Get_Properties_Budget_Range",
+  "id": "Renters - Apartment Details_Get_Property_Details",
   "deleted": false,
-  "gitSyncId": "643f12d02f048d52c3c3b04f_643f2aa2f786be1f417a6823"
+  "gitSyncId": "643f12d02f048d52c3c3b04f_643f8057dd8d18080881653d"
 }

@@ -273,7 +273,7 @@
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
               "hideCard": false,
-              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Get_Renters_For_Dropdown.data[0]))(browse_select.options, browse_select.serverSideFiltering) }}",
+              "defaultOptionValue": "",
               "animateLoading": true,
               "parentColumnSpace": 22.1875,
               "dynamicTriggerPathList": [
@@ -291,9 +291,6 @@
                 },
                 {
                   "key": "options"
-                },
-                {
-                  "key": "defaultOptionValue"
                 }
               ],
               "labelPosition": "Top",
@@ -892,6 +889,9 @@
                                       "dynamicPropertyPathList": [
                                         {
                                           "key": "defaultSwitchState"
+                                        },
+                                        {
+                                          "key": "onChange"
                                         }
                                       ],
                                       "displayName": "Switch",
@@ -907,7 +907,11 @@
                                       "hideCard": false,
                                       "animateLoading": true,
                                       "parentColumnSpace": 12.296875,
-                                      "dynamicTriggerPathList": [],
+                                      "dynamicTriggerPathList": [
+                                        {
+                                          "key": "onChange"
+                                        }
+                                      ],
                                       "leftColumn": 32,
                                       "dynamicBindingPathList": [
                                         {
@@ -920,6 +924,7 @@
                                       "labelTextSize": "0.875rem",
                                       "isDeprecated": false,
                                       "rightColumn": 64,
+                                      "onChange": "{{utils.toggleFavorite(currentItem.PropertyID, currentItem.favorite)}}",
                                       "dynamicHeight": "AUTO_HEIGHT",
                                       "widgetId": "l1lievorjg",
                                       "accentColor": "#db2777",
@@ -1046,18 +1051,6 @@
         },
         "layoutOnLoadActions": [
           [
-            {
-              "id": "Renters - Browsing Apartments_Get_Properties_Budget_Range",
-              "name": "Get_Properties_Budget_Range",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "budget_slider.start",
-                "budget_slider.end",
-                "browse_select.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "Renters - Browsing Apartments_Get_Renters_For_Dropdown",
               "name": "Get_Renters_For_Dropdown",

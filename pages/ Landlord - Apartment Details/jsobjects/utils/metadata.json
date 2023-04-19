@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": " Landlord - Apartment Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": " Landlord - Apartment Details_utils",
+  "deleted": false,
+  "gitSyncId": "643f12d02f048d52c3c3b04f_6440269af715db2577aee9bc"
+}

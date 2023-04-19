@@ -1,0 +1,4 @@
+{
+	"start_date": {{start_picker.formattedDate}},
+	"end_date": {{end_picker.formattedDate}}
+}
